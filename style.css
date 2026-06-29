@@ -81,6 +81,7 @@ ul li a:hover{
 }
 .info{
     color: white;
+    max-width:500px;
     font-weight: light;
     letter-spacing: 1px;
     font-family: 'Times New Roman';
