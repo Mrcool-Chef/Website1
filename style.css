@@ -47,7 +47,7 @@ ul li{
     float: left;
     list-style: none;
     margin-top: 27px;
-    margin-left: 120px;
+    margin-left: 40px;
     font-size: 14px;
 }
 ul li a{
@@ -65,8 +65,19 @@ ul li a:hover{
     color: darkgreen;
     position: relative;
     font-size: 30px;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form{
+    width:300px;
+    height:390px;
+    margin-right:80px;
+    background: rgba(0,0,0,0.8);
+    border:4px solid darkgreen;
+    border-radius:10px;
 }
 .info{
     color: white;
@@ -88,15 +99,7 @@ ul li a:hover{
 .btn:hover{
     background-color: white;
 }
-.form{
-    width: 300px;
-    height: 390px;
-    margin-left :900px;
-    margin-top: -400px;
-    background: linear-gradient(to top,rgba(0,0,0,0.8));
-    border: 4px solid darkgreen;
-    border-radius: 10px;
-    font-size: 20px;
+
 }
 .head{
     width: 230px;
